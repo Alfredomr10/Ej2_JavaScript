@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Suma de dos números</title>
+	<!-- Agregar enlaces a los archivos CSS de Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Suma de dos números</h1>
+		<form>
+			<div class="form-group">
+				<label for="num1">Primer número:</label>
+				<input type="number" class="form-control" id="num1">
+			</div>
+			<div class="form-group">
+				<label for="num2">Segundo número:</label>
+				<input type="number" class="form-control" id="num2">
+			</div>
+			<button type="button" class="btn btn-primary" onclick="sumar()">Sumar</button>
+		</form>
+		<div id="resultado"></div>
+	</div>
+
+	<script src="suma.js"></script>
+</body>
+</html>
